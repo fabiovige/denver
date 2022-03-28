@@ -4,11 +4,11 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        Home
+                        Login
                     </div>
 
                     <div class="card-body">
-                        <Link href="/login">Login</Link>
+                        <Link href="/">Home</Link>
                     </div>
                 </div>
             </div>

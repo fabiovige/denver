@@ -14,9 +14,11 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Home', [
-        'title' => 'Fabio Martins'
-    ]);
+    return Inertia::render('Home');
+});
+
+Route::get('/login', function () {
+    return Inertia::render('Login');
 });
 
 //Auth::routes();
